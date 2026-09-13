@@ -25,6 +25,7 @@ An intelligent, terminal-based chess analysis companion. It retrieves recent mat
        +------------------+
        | Rich Terminal UI |  ---> Formatted panels, evaluations, and board state
        +------------------+
+```
 
 ## Project Structure
 ```text
@@ -35,6 +36,7 @@ An intelligent, terminal-based chess analysis companion. It retrieves recent mat
     ├── requirements.txt    # Production Python dependencies
     ├── chess_coach.py      # Core CLI loop, engine bridge, and LLM orchestration
     └── chess_ui.py         # Terminal UI formatting and board rendering (Rich)
+```
 
 ## Setup and Installattion
 ```text
@@ -51,3 +53,4 @@ An intelligent, terminal-based chess analysis companion. It retrieves recent mat
     export GEMINI_API_KEY="your_actual_gemini_api_key_here"
 
     python3 chess_coach.py <lichess_username>
+```
