@@ -1,0 +1,12 @@
+# Environments & variables
+chess_venv/
+venv/
+.env*
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local profiling data
+player_profile.json
