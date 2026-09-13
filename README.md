@@ -27,25 +27,27 @@ An intelligent, terminal-based chess analysis companion. It retrieves recent mat
        +------------------+
 
 ## Project Structure
+```text
 
-chess/
-├── .gitignore          # Excludes environments, caches, and local profiles
-├── README.md           # Documentation and setup instructions
-├── requirements.txt    # Production Python dependencies
-├── chess_coach.py      # Core CLI loop, engine bridge, and LLM orchestration
-└── chess_ui.py         # Terminal UI formatting and board rendering (Rich)
+    chess/
+    ├── .gitignore          # Excludes environments, caches, and local profiles
+    ├── README.md           # Documentation and setup instructions
+    ├── requirements.txt    # Production Python dependencies
+    ├── chess_coach.py      # Core CLI loop, engine bridge, and LLM orchestration
+    └── chess_ui.py         # Terminal UI formatting and board rendering (Rich)
 
 ## Setup and Installattion
+```text
 
-sudo apt update && sudo apt install stockfish
-git clone git@github.com:Allanprince001/chess-ai-coach.git
-cd chess-ai-coach
+    sudo apt update && sudo apt install stockfish
+    git clone git@github.com:Allanprince001/chess-ai-coach.git
+    cd chess-ai-coach
 
-python3 -m venv chess_venv
-source chess_venv/bin/activate
-pip install --upgrade pip
-pip install -r req.txt
+    python3 -m venv chess_venv
+    source chess_venv/bin/activate
+    pip install --upgrade pip
+    pip install -r req.txt
 
-export GEMINI_API_KEY="your_actual_gemini_api_key_here"
+    export GEMINI_API_KEY="your_actual_gemini_api_key_here"
 
-python3 chess_coach.py <lichess_username>
+    python3 chess_coach.py <lichess_username>
